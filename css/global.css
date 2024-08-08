@@ -1,0 +1,245 @@
+/* reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}      
+
+body {
+    font-family: "poppins";
+    font-size: 20px;
+    color: black;
+    background-color: #fff;
+}
+
+/*Enleve les puces et remet les marges à 0* enleve les lignes*/
+a {
+    text-decoration: none;
+}
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* En -tete*/
+.header {
+    display: block;
+    text-align: center;
+    padding: 40px;
+    margin: 15px;
+    border-bottom: thick double  #bbb9d4f0;
+    background-color: black;   
+}
+
+.header li {
+    display:inline-block;
+  }
+
+  .header a {
+    margin: 15px;
+    color: #fff;
+    font-family: "poppins" , sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+  }
+
+.title {
+   padding:25px;
+   margin: 0;
+   color: #fff;
+   font-family: "poppins", sans-serif;
+   font-weight: 800;
+   font-size: 30px;
+}
+
+@media screen and (max-width:712px) {
+    .header {
+        padding: 10px;
+        margin: 5px auto;
+    }
+
+    .title { 
+     font-size: 25px;
+     padding: 25px;
+     font-weight:600;
+    }
+
+    .header a {
+        display: inline-block;
+        margin: 5px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+ 
+.présentation-index {
+    text-align:center;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 1%;
+}
+
+.Détails-texte {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width:712px){
+    .présentation-index {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 4%;
+    }
+    .Détails-texte {
+        margin-top: 10%;
+        font-size: 17px;
+        margin-bottom: 20%;
+        
+
+    }
+}
+
+/* mes résalisations*/
+.présentation_mes_réalisations {
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.ifram-container {
+    display:flex;
+    justify-content: center;
+    border: none;
+    margin-bottom: 10%;
+    
+}
+
+@media screen and (max-width:712px){
+    .présentation_mes_réalisations {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 4%;
+    }
+    .ifram-container {
+        margin-bottom: 16%;
+    }
+}
+
+/* Mon parcours */
+.parcours-texte {
+    text-align:center;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+ .cv-ico {
+    display: none;
+ }
+
+.cv-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 712px ) {
+      .cv-image {
+        display: none;
+      }
+
+      .cv-ico {
+        display: inline-block;
+        margin-bottom: 55%;
+      }
+
+      .parcours-texte {
+            text-align:center;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 4%;
+            margin-bottom: 15%;
+      }
+    }
+
+/*Contact*/
+.contact-container {
+    margin-top: 30px;
+    display: block;
+    text-align: center;   
+}
+
+.contact-form {
+    display: block;
+    text-align: center;
+}
+
+/*Style contact*/
+.contact-form {
+    width: 600px;
+    height: 650px;
+    margin: 15px auto;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column; /*direction des cadres*/
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #d4b9b9;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:712px) {
+    .contact-form {
+        width: 400px;
+        height: 650px;
+        margin: 15px auto;
+        background-color: #fff;
+        line-height: 1.5;
+    }
+}
+
+/*Bas de page*/
+
+.footer {
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  padding: 40px;
+  margin: 15px;
+  background-color: black;   
+}
+
+.linkedin-icon {
+    color: #0077b5; /* Couleur de l'icône LinkedIn */
+    font-size: 24px; /* Taille de l'icône */
+    text-decoration: none; /* Supprime la décoration du lien */
+    margin: 0 10px; /* Marge autour de l'icône */
+}
