@@ -10,7 +10,7 @@ body {
     font-family: "poppins";
     font-size: 20px;
     color: black;
-    background-color: #fff;
+    background-color: #05100432;
 }
 
 /*Enleve les puces et remet les marges à 0* enleve les lignes*/
@@ -26,161 +26,123 @@ a {
 /* En -tete*/
 .header {
     display: block;
+    margin: 10px;
     text-align: center;
-    padding: 40px;
-    margin: 15px;
-    border-bottom: thick double  #bbb9d4f0;
+    border-bottom: thick double #cab4b4eb;
     background-color: black;   
 }
 
 .header li {
     display:inline-block;
+    padding-bottom: 10px;
   }
-
   .header a {
-    margin: 15px;
-    color: #fff;
-    font-family: "poppins" , sans-serif;
-    font-weight: 500;
-    font-size: 19px;
+    margin: 5px;
+    letter-spacing: 2px;
+    color: #cab4b4eb;
+    font-family: fantasy;
+    font-size: 25px;
   }
-
 .title {
-   padding:25px;
+   padding:50px;
    margin: 0;
-   color: #fff;
-   font-family: "poppins", sans-serif;
-   font-weight: 800;
+   color: #cab4b4eb;
+   font-family:fantasy;
+   letter-spacing: 3px;
    font-size: 30px;
 }
-
-@media screen and (max-width:712px) {
-    .header {
-        padding: 10px;
-        margin: 5px auto;
-    }
-
+@media screen and (min-width:981px) {
     .title { 
-     font-size: 25px;
-     padding: 25px;
-     font-weight:600;
-    }
-
-    .header a {
-        display: inline-block;
-        margin: 5px;
-        font-weight: 400;
-        font-size: 16px;
-    }
+     font-size: 40px;
+     padding: 50px; 
+    }   
 }
- 
-.présentation-index {
-    text-align:center;
-    font-family: "poppins", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
-    margin-top: 1%;
-}
-
-.Détails-texte {
+ /*page-index en dessous du header*/
+.profil {
     display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+.présentation {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-family: "poppins", sans-serif;
-    font-weight: 200;
-    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 5vh;
 }
 
+@media screen and (min-width:981px){
+    .pp_container {
+        display: flex;
+        font-size: 30px; 
+        margin-bottom: 20vh;   
+    }   
+}
+/*-------------------------------------------------*/
+/* Mon parcours */
 
-
-@media screen and (max-width:712px){
-    .présentation-index {
-        font-weight: 500;
-        font-size: 20px;
-        margin-top: 4%;
-    }
-    .Détails-texte {
-        margin-top: 10%;
-        font-size: 17px;
-        margin-bottom: 20%;
-        
-
-    }
+.parcours-texte {
+    text-align: center;
+    padding: 50px;
 }
 
+.cv-image {
+    display: none;
+  }
+
+ .cv-ico {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 15%;
+    padding-bottom: 24vh;
+ }
+
+@media screen and (min-width:981px ) {
+      .cv-image {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10%;
+        width:700px;
+        height: auto;
+      }
+      .cv-ico {
+        display:none;
+      }
+      .parcours-texte {
+            text-align:center;
+            font-size: 30px;
+            margin-top: 5px;
+      }
+    }
+/*----------------------------------------------------------------*/
 /* mes résalisations*/
 .présentation_mes_réalisations {
     text-align: center;
-    font-family: "poppins", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
+    padding: 50px;
 }
-
 .ifram-container {
     display:flex;
     justify-content: center;
-    border: none;
-    margin-bottom: 10%;
-    
+    padding-bottom: 5vh; 
 }
 
-@media screen and (max-width:712px){
+@media screen and (min-width:981px){
     .présentation_mes_réalisations {
-        font-weight: 500;
-        font-size: 20px;
-        margin-top: 4%;
-    }
-    .ifram-container {
-        margin-bottom: 16%;
-    }
+        font-size: 30px;
+        margin-top: 5px;
+    }  
 }
-
-/* Mon parcours */
-.parcours-texte {
-    text-align:center;
-    font-family: "poppins", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    margin-bottom: 5%;
-}
-
- .cv-ico {
-    display: none;
- }
-
-.cv-container {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
-}
-
-@media screen and (max-width: 712px ) {
-      .cv-image {
-        display: none;
-      }
-
-      .cv-ico {
-        display: inline-block;
-        margin-bottom: 55%;
-      }
-
-      .parcours-texte {
-            text-align:center;
-            font-weight: 500;
-            font-size: 20px;
-            margin-top: 4%;
-            margin-bottom: 15%;
-      }
-    }
-
+/*--------------------------------------------------------------*/
 /*Contact*/
 .contact-container {
-    margin-top: 30px;
     display: block;
     text-align: center;   
+    margin: 50px auto;
+    
 }
-
 .contact-form {
     display: block;
     text-align: center;
@@ -188,10 +150,9 @@ a {
 
 /*Style contact*/
 .contact-form {
-    width: 600px;
-    height: 650px;
-    margin: 15px auto;
-    background-color: #fff;
+    width: 350px;
+    height: 75vh;
+    margin: auto;
     line-height: 1.5;
 }
 
@@ -201,39 +162,42 @@ a {
 }
 
 .contact-form input, .contact-form textarea {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #d4b9b9;
+    border: 2px solid black;
 }
 
 .contact-form button {
     padding: 10px;
+    margin: auto;
+    width: 200px;
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 20px;
     cursor: pointer;
 }
 
-@media screen and (max-width:712px) {
-    .contact-form {
-        width: 400px;
-        height: 650px;
-        margin: 15px auto;
-        background-color: #fff;
+@media screen and (min-width:981px) {
+    .contact-form  {
+        width: 600px;
+        margin: auto;
         line-height: 1.5;
+    }
+    .contact-container {
+        font-size: 25px;
     }
 }
 
 /*Bas de page*/
-
 .footer {
   display: block;
-  font-size: 15px;
+  padding: 25px;
+  align-content: center;
+  justify-content: center;
+  font-size: 13px;
   color: #fff;
-  padding: 40px;
-  margin: 15px;
   background-color: black;   
 }
 
