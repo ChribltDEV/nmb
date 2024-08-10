@@ -7,7 +7,7 @@
 }      
 
 body {
-    font-family: "poppins";
+    font-family:fantasy, cursive;
     font-size: 40px;
     font-weight: 500;
     color: black;
@@ -41,7 +41,7 @@ a {
     margin: 5px;
     letter-spacing: 2px;
     color: #cab4b4eb;
-    font-family: fantasy;
+    font-family:fantasy;
     font-size: 25px;
   }
 .title {
