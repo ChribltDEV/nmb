@@ -148,19 +148,18 @@ a {
 .contact-container {
     display: block;
     text-align: center;   
-    margin: 50px auto;
-    
+    margin: 50px auto;   
 }
-.contact-form {
-    display: block;
-    text-align: center;
-}
+
 
 /*Style contact*/
 .contact-form {
+    display: block;
+    text-align: center;
     width: 750px;
-    height: 75vh;
+    height: auto;
     margin: auto;
+    padding-bottom: 20%;
     line-height: 2;
 }
 
@@ -201,9 +200,8 @@ a {
 /*Bas de page*/
 .footer {
   display: flex;
-  padding: 45px;
-  align-items: center;
   justify-content: center;
+  padding: 45px;
   font-size: 17px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.842);   
