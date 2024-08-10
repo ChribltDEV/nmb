@@ -52,7 +52,7 @@ a {
 }
 @media screen and (min-width:981px) {
     .title { 
-     font-size: 40px;
+     font-size: 50px;
      padding: 50px; 
     }   
 }
@@ -167,7 +167,7 @@ a {
 }
 
 .contact-form button {
-    padding: 40px;
+    padding: 10px;
     margin: auto;
     width: 200px;
     background-color: #007BFF;
@@ -179,14 +179,14 @@ a {
 }
 
 @media screen and (min-width:981px) {
-    .contact-form  {
-        width: 600px;
-        margin: auto;
-        line-height: 1.5;
+    .contact-form {
+        margin-bottom: 50vh;
+        font-size: 35px;
     }
     .contact-container {
-        font-size: 25px;
+        font-size: 35px;
     }
+
 }
 
 /*Bas de page*/
