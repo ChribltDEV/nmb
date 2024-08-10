@@ -81,7 +81,10 @@ a {
         display: flex;
         font-size: 35px; 
         margin-bottom: 20vh;   
-    }   
+    }
+    .espace-des {
+        margin-top: 5%;
+    }
    
 }
 /*-------------------------------------------------*/
