@@ -80,12 +80,12 @@ a {
     .pp_container {
         display: flex;
         font-size: 35px; 
-        margin-bottom: 20vh;   
+        margin-bottom: 20vh; 
+        margin-right: 50px;  
     }
     .espace-des {
         margin-top: 5%;
     }
-   
 }
 /*-------------------------------------------------*/
 /* Mon parcours */
@@ -188,13 +188,16 @@ a {
 
 @media screen and (min-width:981px) {
     .contact-form {
-        margin-bottom: 90vh;
         font-size: 35px;
+        width: 800px;
+        height: auto;
+        padding-bottom: 8%;
+        line-height: 1.5;
     }
     .contact-container {
         font-size: 35px;
     }
-
+  
 }
 
 /*Bas de page*/
