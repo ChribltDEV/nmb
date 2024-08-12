@@ -22,6 +22,12 @@ a {
     padding: 0;
 }
 
+a:hover {
+    background-color: rgba(55, 55, 77, 0.969); /* Fond coloré au survol */
+    padding: 4px;
+}
+
+
 /* En -tete*/
 .header {
     display: block;
@@ -213,7 +219,8 @@ a {
 
 .linkedin-icon {
     color: #0077b5; /* Couleur de l'icône LinkedIn */
-    font-size: 24px; /* Taille de l'icône */
+    font-size: 40px; /* Taille de l'icône */
     text-decoration: none; /* Supprime la décoration du lien */
-    margin: 0 10px; /* Marge autour de l'icône */
+    margin: 0 20px; /* Marge autour de l'icône */
+    cursor:pointer;
 }
