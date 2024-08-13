@@ -85,11 +85,11 @@ a:hover {
     .pp_container {
         display: flex;
         font-size: 35px; 
-        margin-bottom: 20vh; 
-        margin-right: 50px;  
+        margin: 0 auto;
+        margin-bottom: 110px;  
     }
     .espace-des {
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
 }
@@ -102,16 +102,14 @@ a:hover {
 }
 
 .cv-image {
-    display: none;
+    display: block;
+    justify-items: center;
+    margin: 50px auto;
+    width: 200px;
+    height: auto;
+    
   }
 
- .cv-ico {
-    display: block;
-    text-align: center;
-    font-size: 40px;
-    margin: 110px auto
-    
- }
 
 @media screen and (min-width:700px ) {
       .cv-image {
@@ -120,9 +118,6 @@ a:hover {
         padding-bottom: 110px;
         width:1000px;
         height: auto;
-      }
-      .cv-ico {
-        display:none;
       }
       .parcours-texte {
             text-align:center;
