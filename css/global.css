@@ -98,31 +98,31 @@ a:hover {
 
 .parcours-texte {
     text-align: center;
-    margin: 50px auto;
+    padding:50px;
 }
 
 .cv-image {
     display: block;
     justify-items: center;
-    margin: 50px auto;
-    width: 200px;
+    margin: 70px auto;
+    width: 700px;
     height: auto;
     
   }
 
 
-@media screen and (min-width:700px ) {
+@media screen and (min-width:981px ) {
       .cv-image {
         display: block;
         margin: 0 auto;
         padding-bottom: 110px;
-        width:1000px;
+        width:800px;
         height: auto;
       }
       .parcours-texte {
             text-align:center;
             font-size: 30px;
-            margin: 50px;
+            margin: 20px;
       }
     }
 /*----------------------------------------------------------------*/
