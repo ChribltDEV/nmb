@@ -29,6 +29,17 @@ li:hover {
 
 
 /* En -tete*/
+  
+    .menu  li a.active{
+    background-color: #242930; /* Couleur de fond pour l'élément actif */
+    color: white; /* Couleur du texte pour l'élément actif */
+    border-radius: 5px; /* Coins arrondis pour l'élément actif */
+  }
+  
+  
+  
+
+
 .header {
     display: block;
     text-align: center;
